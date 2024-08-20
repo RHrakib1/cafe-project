@@ -1,0 +1,77 @@
+[
+    {
+        "id": "001",
+        "cover": "i.ibb.co/LNMDFMx/flat-lay-workstation-with-copy-space-laptop.jpg",
+        "title": "The Chronicles of Elysium",
+        "author": "John Smith",
+        "author_img": "https://i.ibb.co/prXGfms/young-beautiful-brunette-businesswoman-smiling-pointing-finger-side.jpg",
+        "posted_date": "2024-08-15",
+        "reading_time": 10 ,
+        "hashtags": [
+            "#Fantasy",
+            "#Adventure",
+            "#Magic",
+            "#Epic"
+        ]
+    },
+    {
+        "id": "002",
+        "cover": "https://i.ibb.co/5WMSKGY/flat-lay-desktop-with-notebook-pizza.jpg",
+        "title": "Digital Dreams: The Rise of AI",
+        "author": "Jane Doe",
+        "author_img": "i.ibb.co/JkK3yPk/newcomer-get-know-teammates-pleased-good-looking-businesswoman-transparent-glasses-blue-collar-shirt.jpg",
+        "posted_date": "2024-07-10",
+        "reading_time": 8,
+        "hashtags": [
+            "#Technology",
+            "#AI",
+            "#Future",
+            "#Innovation"
+        ]
+    },
+    {
+        "id": "003",
+        "cover": "https://i.ibb.co/DLTMHmL/high-angle-desktop-with-laptop-copy-space.jpg",
+        "title": "Whispers in the Wind",
+        "author": "Michael Lee",
+        "author_img": "https://i.ibb.co/vC5YHBK/travel-agent-hearing-customer-desires-portrait-good-looking-european-businesswoman-blue-blouse-glass.jpg",
+        "posted_date": "2024-06-25",
+        "reading_time": 12 ,
+        "hashtags": [
+            "#Mystery",
+            "#Suspense",
+            "#Thriller",
+            "#Crime"
+        ]
+    },
+    {
+        "id": "004",
+        "cover": "https://i.ibb.co/JdYFj6f/flat-lay-work-desktop-with-notebook-keyboard.jpg",
+        "title": "Tales of the Forgotten World",
+        "author": "Emily Davis",
+        "author_img": "https://i.ibb.co/dMQG8pH/friendly-looking-charming-happy-young-dark-skinned-female-showing-heart-gesture-romantic-love-sign-s.jpg",
+        "posted_date": "2024-05-20",
+        "reading_time": 15,
+        "hashtags": [
+            "#History",
+            "#Ancient",
+            "#Adventure",
+            "#Discovery"
+        ]
+    },
+    {
+        "id": "005",
+        "cover": "https://i.ibb.co/72zdjNx/top-view-workspace-with-copy-space-notebook-top-agenda.jpg",
+        "title": "The Cyber Frontier",
+        "author": "David Garcia",
+        "author_img": "https://i.ibb.co/yF3SZjt/pleased-male-customer-show-okay-sign-recommend-product.jpg",
+        "posted_date": "2024-08-01",
+        "reading_time": 9,
+        "hashtags": [
+            "#Cyberpunk",
+            "#SciFi",
+            "#Future",
+            "#Dystopia"
+        ]
+    }
+]
