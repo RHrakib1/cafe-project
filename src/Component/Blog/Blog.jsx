@@ -23,13 +23,13 @@ const Blog = ({ blog, hendelBookMark, heandleread }) => {
                     <button onClick={() => hendelBookMark(blog)} className='text-gray-600'><FaBookmark></FaBookmark></button>
                 </div>
             </div>
-            <p className='font-bold text-4xl'>{title}</p>
+            <p className='font-bold text-4xl mb-2'>{title}</p>
             <h3 className='flex gap-2 text-gray-600'>
                 {
                     hashtags.map((addHash, idx) => <p key={idx}><a href="">{addHash}</a></p>)
                 }
             </h3>
-            <button onClick={() => heandleread(blog)} className='mt-5'> <a className='text-sm text-blue-700 ' href="#">Mark as read</a></button>
+            <button onClick={() => heandleread(reading_time)} className='mt-5'> <a className='text-sm text-blue-700 ' href="#">Mark as read</a></button>
         </div>
     );
 };

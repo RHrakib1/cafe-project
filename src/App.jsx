@@ -13,9 +13,12 @@ function App() {
     setbookmark(newCart)
   }
 
-  const [read, setRead] = useState([])
-  const heandleread = () => {
-    console.log("hit this read time");
+  const [read, setRead] = useState(0)
+  
+  const heandleread = (time) => {
+    console.log("hit this read time", time);
+    const newTime = read + time;
+    setRead(newTime)
   }
 
   return (
@@ -23,7 +26,7 @@ function App() {
       <Header></Header>
       <div className='md:flex max-w-6xl mx-auto'>
         <Blogs hendelBookMark={hendelBookMark} heandleread={heandleread}></Blogs>
-        <BookMark appToBook={bookmark}></BookMark>
+        <BookMark appToBook={bookmark} readToAdd={read}></BookMark>
       </div>
     </>
   )
