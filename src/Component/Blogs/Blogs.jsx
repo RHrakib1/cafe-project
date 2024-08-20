@@ -3,7 +3,7 @@ import Blog from '../Blog/Blog';
 import PropTypes from 'prop-types';
 
 
-const Blogs = ({ hendelBookMark }) => {
+const Blogs = ({ hendelBookMark,heandleread }) => {
     const [blogs, setBlogs] = useState([])
     useEffect(() => {
         fetch('cafe.json')
@@ -18,6 +18,7 @@ const Blogs = ({ hendelBookMark }) => {
                     key={blogsCopy.id}
                     blog={blogsCopy}
                     hendelBookMark={hendelBookMark}
+                    heandleread={heandleread}
                 ></Blog>)
             }
 
@@ -26,7 +27,8 @@ const Blogs = ({ hendelBookMark }) => {
     );
 };
 Blogs.propTypes = {
-    hendelBookMark:PropTypes.func
+    hendelBookMark:PropTypes.func,
+    heandleread:PropTypes.func,
 }
 
 export default Blogs;
